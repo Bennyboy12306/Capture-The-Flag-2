@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "got_blue_flag": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_nugget",
+            "components": {
+              "minecraft:item_model": "ctf:blue_flag"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ctf:obtain_blue_flag"
+  }
+}

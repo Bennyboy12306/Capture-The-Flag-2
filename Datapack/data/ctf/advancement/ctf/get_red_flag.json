@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "got_red_flag": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_nugget",
+            "components": {
+              "minecraft:item_model": "ctf:red_flag"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ctf:obtain_red_flag"
+  }
+}
